@@ -55,12 +55,7 @@
           </button>
           
         </div>
-        
-        {% capture table %}<table class="table table-hover table-bordered shadow">{% endcapture %}
-
-        {% capture code-before %}<pre class="highlight">{% endcapture %}
-        {% capture code %}<pre class="highlight rounded border shadow">{% endcapture %}
-        {{ content | replace: "<table>", table | replace: "task-list-item-checkbox", "form-check-input" | replace: code-before, code -}}
+        {{ content -}}
       </div>
     </div>
   </div>
@@ -74,6 +69,4 @@
   }
   </script>
 </body>
-  {% include mermaid.html -%}
-  
 </html>
