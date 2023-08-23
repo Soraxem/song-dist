@@ -1,5 +1,4 @@
 ---
-layot: default
 title: Jesus ist Kommen
 yt-music: https://music.youtube.com/watch?v=uCOBVG1_ndk
 ---
