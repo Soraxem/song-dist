@@ -8,7 +8,7 @@ const { CacheFirst, NetworkFirst, StaleWhileRevalidate } = workbox.strategies;
 const { CacheableResponse } = workbox.cacheableResponse;
 
 workbox.core.setCacheNameDetails({
-  prefix: 'svrooij.io',
+  prefix: 'tc.soraxem.ch',
   suffix: '{{ site.time | date: "%Y-%m" }}'
 });
 
