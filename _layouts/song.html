@@ -80,18 +80,12 @@
     })
   }
   function show_chords() {
-    var songtextElement = document.getElementById("songtext");
-    var chordsElement = document.getElementById("chords");
-
-    songtextElement.style.display = "none";
-    chordsElement.style.display = "block";
+    document.getElementById("songtext").style.display = "none";
+    document.getElementById("chords").style.display = "block"; 
   }
   function show_text() {
-    var songtextElement = document.getElementById("songtext");
-    var chordsElement = document.getElementById("chords");
-
-    songtextElement.style.display = "block";
-    chordsElement.style.display = "none";
+    document.getElementById("songtext").style.display = "block";
+    document.getElementById("chords").style.display = "none";
   }
   </script>
 </body>
