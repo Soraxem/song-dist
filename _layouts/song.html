@@ -63,8 +63,8 @@
             </a>
           </div>
         </div>
-
-        <div class="mt-2 mt-md-4">
+        <iframe src="jesus-ist-kommen-noten.pdf" width="100%" height="600px" id="chords" style="display: none;"></iframe>
+        <div class="mt-2 mt-md-4" id="songtext">
           <h1>{{ page.title }}</h1>
           {{ content -}}
       </div>
@@ -78,6 +78,20 @@
     window.addEventListener('load', () => {
       navigator.serviceWorker.register('/sw.js')
     })
+  }
+  function show_chords() {
+    var songtextElement = document.getElementById("songtext");
+    var chordsElement = document.getElementById("chords");
+
+    songtextElement.style.display = "none";
+    chordsElement.style.display = "block";
+  }
+  function show_text() {
+    var songtextElement = document.getElementById("songtext");
+    var chordsElement = document.getElementById("chords");
+
+    songtextElement.style.display = "block";
+    chordsElement.style.display = "none";
   }
   </script>
 </body>
