@@ -7,8 +7,9 @@
   "display": "standalone",
   "description": "Teenagerclub-app hier sind alle wichtigen dinge zum TC zu finden",
   "icons": [{
-    "src": "/icon.jpg",
+    "src": "/icon.png",
     "sizes":"any",
-    "type": "image/jpg"
+    "type": "image/png",
+    "purpose":"maskable"
   }]
 }
