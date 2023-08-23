@@ -2,6 +2,6 @@
 layout: default
 title: Home
 ---
-# Hello World!
+# Hallo TC!
 
-This is my personal website, here a huge part of my knowledge base is published. As well as some highlights.
+Judihuii, mir do wird grad es Online-Singbüechli erstellt.
