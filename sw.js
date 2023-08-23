@@ -17,16 +17,6 @@ registerRoute(
   new NetworkFirst()
 );
 
-registerRoute(
-  /page[0-99]/,
-  new NetworkFirst()
-)
-
-registerRoute(
-  new RegExp('/\\d{4}/\\d{2}/\\d{2}/.+'),
-  new StaleWhileRevalidate()
-)
-
 workbox.precaching.precacheAndRoute([
   {% for post in site.posts limit:12 -%}
   { url: '{{ post.url }}', revision: '{{ post.date | date: "%Y-%m-%d"}}' },
@@ -39,9 +29,4 @@ registerRoute(
       new CacheableResponse({statuses: [0, 200]})
     ],
   })
-);
-
-registerRoute(
-  /assets\/(images|icons|css)/,
-  new CacheFirst()
 );
