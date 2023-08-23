@@ -1,0 +1,56 @@
+---
+title: Search
+---
+
+<body>
+  <div id="search-results">
+    
+  </div> 
+</body>
+
+<script>
+  var searchIndex = [
+    {% for post in site.html_pages %}
+      {
+        "title" : "{{ post.title | escape }}",
+        "category" : "{{ post.category }}",
+        "tags" : "{{ post.tags | join: ', ' }}",
+        "url" : "{{ site.baseurl }}{{ post.url }}",
+        "date" : "{{ post.date }}"
+      }{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ];
+
+  function search(query) {
+    var results = [];
+    for (var i = 0; i < searchIndex.length; i++) {
+      var post = searchIndex[i];
+      if (post.title.toLowerCase().indexOf(query.toLowerCase()) >= 0 ||
+          post.category.toLowerCase().indexOf(query.toLowerCase()) >= 0 ||
+          post.tags.toLowerCase().indexOf(query.toLowerCase()) >= 0) {
+        results.push(post);
+      }
+    }
+    return results;
+  }
+
+// Get the URL parameters
+var urlParams = new URLSearchParams(window.location.search);
+
+// Get the value of the "attribute" parameter
+var query = urlParams.get('query');
+if (query === null) {
+  query = "";
+}
+
+// Use the attribute value as needed
+console.log(query);
+
+  var results = search(query);
+  var html = '';
+  for (var i = 0; i < results.length; i++) {
+    var post = results[i];
+    html += '<li><a href="' + post.url + '">' + post.title + '</a></li>';
+  }
+  document.getElementById('search-results').innerHTML = html;
+</script>
