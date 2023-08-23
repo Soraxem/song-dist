@@ -15,3 +15,7 @@ defaults:
       path: ""
     values:
       layout: "default"
+  - scope:
+      path: "songs/"
+    values:
+      layout: "song"
