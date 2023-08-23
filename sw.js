@@ -13,7 +13,7 @@ workbox.core.setCacheNameDetails({
 });
 
 registerRoute(
-  '/',
+  '/song-dist/',
   new NetworkFirst()
 );
 
