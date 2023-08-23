@@ -1,5 +1,5 @@
-url: "https://soraxem.github.io/song-dist"
-baseurl: "/song-dist"
+url: "https://tc.soraxem.ch"
+baseurl: "/"
 defaults:
   - scope:
       path: ""
