@@ -1,5 +1,6 @@
 ---
 title: Jesus ist Kommen
+noten: jesus-ist-kommen-noten.pdf
 yt-music: https://music.youtube.com/watch?v=uCOBVG1_ndk
 ---
 
