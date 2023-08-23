@@ -3,7 +3,7 @@
   "name": "TC Chläggi",
   "background_color": "#fcecca",
   "theme_color": "#af5b5b",
-  "start_url": "/",
+  "start_url": "/song-dist/",
   "display": "standalone",
   "description": "Teenagerclub-app hier sind alle wichtigen dinge zum TC zu finden",
   "icons": [{
