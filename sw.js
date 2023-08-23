@@ -21,6 +21,10 @@ workbox.precaching.precacheAndRoute([
   {% for post in site.posts limit:12 -%}
   { url: '{{ post.url }}', revision: '{{ post.date | date: "%Y-%m-%d"}}' }
   {% endfor %}
+
+  {% for link in site.html_pages -%}
+  { url: '{{ link.url }}', revision: '{{ link.date | date: "%Y-%m-%d"}}' }
+  {% endfor %}
 ])
 
 registerRoute(
