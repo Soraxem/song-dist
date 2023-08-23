@@ -10,6 +10,10 @@ pre.highlight {
   list-style-type: none;
 }
 
+.btn-secondary {
+  --bs-btn-bg: #af5b5b;
+}
+
 html {
   background-color: #fcecca;
 }
