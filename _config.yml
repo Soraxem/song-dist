@@ -16,6 +16,6 @@ defaults:
     values:
       layout: "default"
   - scope:
-      path: "songs/"
+      path: "songs"
     values:
       layout: "song"
