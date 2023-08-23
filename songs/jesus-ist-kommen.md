@@ -1,7 +1,7 @@
 ---
 title: Jesus ist Kommen
-noten: jesus-ist-kommen-noten.pdf
-yt-music: https://music.youtube.com/watch?v=uCOBVG1_ndk
+akkorde: jesus-ist-kommen-noten.pdf
+youtube: https://music.youtube.com/watch?v=uCOBVG1_ndk
 ---
 
 Jesus ist kommen, Grund ewiger Freude;  
