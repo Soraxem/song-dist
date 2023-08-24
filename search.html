@@ -7,6 +7,11 @@ title: Suchen
         <input class="form-control me-2" type="text" placeholder="Search" id="search-box" name="query">
         <input class="btn hover-shadow border border-success" type="submit" value="Search">
       </form>
+  <div>
+    <input class="form-control me-2" type="text" placeholder="Search" id="search-box-js" name="query">
+    <button onclick="search()">Search</button>
+  </div>
+
 
   <div id="search-results">
     
@@ -25,6 +30,12 @@ title: Suchen
       }{% unless forloop.last %},{% endunless %}
     {% endfor %}
   ];
+
+  function search_text() {
+    var inputElement = document.getElementById("search-bux-js");
+    var value = inputElement.value;
+    console.log(value);
+  }
 
   function search(query) {
     var results = [];
