@@ -13,26 +13,23 @@ Wie hoch die Mauern sind
 Wenn Sorgen mich bedrängen  
 Ich weiß, alle Ketten zerspringen  
 
-**Pre. Refrain**
-
-Lehre mich immer mehr zu verstehen wer Du bist
+**Pre. Refrain**  
+Lehre mich immer mehr zu verstehen wer Du bist  
 Die Gewissheit tief in mir, dass Du der Sieger bist
 
-**Refrain**
-
-Ja ich weiß
+**Refrain**  
+Ja ich weiß  
+Mein Gott ist größer  
+Er hält alles in der Hand  
+Und ich weiß  
+Er kämpft meine Kämpfe  
+Er ist Sieger in Ewigkeit  
 Mein Gott ist größer
-Er hält alles in der Hand
-Und ich weiß
-Er kämpft meine Kämpfe
-Er ist Sieger in Ewigkeit
-Mein Gott ist größer
 
-**Bridge**
-
-Mein Gott ist größer als Lüge
-Größer als Hass
-Größer als Tod und Gewalt
-Größer als jeder Umstand
-Größer als Angst
+**Bridge**  
+Mein Gott ist größer als Lüge  
+Größer als Hass  
+Größer als Tod und Gewalt  
+Größer als jeder Umstand  
+Größer als Angst  
 Mein Gott ist der Größte
