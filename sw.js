@@ -17,7 +17,7 @@ workbox.core.setCacheNameDetails({
 });
 
 registerRoute(
-  '/',
+  () => true,
   new NetworkFirst()
 );
 
