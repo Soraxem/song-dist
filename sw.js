@@ -25,7 +25,7 @@ workbox.precaching.precacheAndRoute([
   {% for link in site.html_pages -%}
   { url: '{{ link.url }}', revision: '{{ site.time | date: "%Y%m%d%H%M%S"}}' },
   {% endfor %}
-])
+]);
 
 registerRoute(
   ({request}) => request.destination === 'image' ,
