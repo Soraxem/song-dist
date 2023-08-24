@@ -17,11 +17,19 @@ registerRoute(
   new NetworkFirst()
 );
 
-workbox.precaching.precacheAndRoute([
+registerRoute(
   {% for link in site.html_pages -%}
-  { url: '{{ link.url }}', revision: '{{ site.time | date: "%Y%m%d%H%M"}}' },
+  '{{ link.url }}',
   {% endfor %}
-])
+  new StaleWhileRevalidate()
+);
+
+
+//workbox.precaching.precacheAndRoute([
+//  {% for link in site.html_pages -%}
+//  { url: '{{ link.url }}', revision: '{{ site.time | date: "%Y%m%d%H%M"}}' },
+//  {% endfor %}
+//])
 
 registerRoute(
   ({request}) => request.destination === 'image' ,
