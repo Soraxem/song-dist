@@ -1,15 +1,32 @@
 {
   "$schema": "https://json.schemastore.org/web-manifest-combined.json",
   "name": "TC Chläggi",
+  "short_name": "TC Chläggi",
+  "description": "Teenagerclub-app hier sind alle wichtigen dinge zum TC zu finden",
+  "categories": ["music","lifestyle"],
+  "lang": "de",
+
   "background_color": "#fcecca",
   "theme_color": "#af5b5b",
+  
   "start_url": "https://tc.soraxem.ch/",
+  "scope": "https://tc.soraxem.ch",
+  "handle_links": "preferred",
+  
   "display": "standalone",
-  "description": "Teenagerclub-app hier sind alle wichtigen dinge zum TC zu finden",
+  "display_override": "window-controls-overlay",
+  "orientation": "any",
+  
   "icons": [{
     "src": "/icon.png",
     "sizes":"1024x1024",
     "type": "image/png",
-    "purpose":"any maskable"
+    "purpose":"any"
+  },
+  {
+    "src": "/icon.png",
+    "sizes":"1024x1024",
+    "type": "image/png",
+    "purpose":"maskable"
   }]
 }
