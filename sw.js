@@ -12,6 +12,10 @@ workbox.core.setCacheNameDetails({
   suffix: '{{ site.time | date: "%Y%m%d%H%M" }}'
 });
 
+workbox.setConfig({
+  debug: true,
+});
+
 registerRoute(
   '/',
   new NetworkFirst()
