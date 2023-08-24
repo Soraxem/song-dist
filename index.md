@@ -19,7 +19,7 @@ Es TC App dient als Singbüechli für de TC Klettgau. In de suechliste chan es l
 
 ## Installieren
 
-Zum d App installiere, chasch Du do d Ahleitig finde.
+Zum d App installiere, chasch Du do d Ahleitig finde. Klick uf de chnopf, mit dem Browser wo du jezt grad bruchsch. Wenns dine nid git, nimmsch am beste eifach mal Chrome.
 
 <a href="/install/safari.html" class="btn btn-secondary" target="_blank">
     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-browser-safari" viewBox="0 0 16 16">
