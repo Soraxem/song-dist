@@ -3,13 +3,8 @@ title: Suchen
 ---
 
 <body>
-  <form action="{{ site.baseurl }}/search.html" method="get" class="d-flex mt-4 mb-4">
-        <input class="form-control me-2" type="text" placeholder="Search" id="search-box" name="query">
-        <input class="btn hover-shadow border border-success" type="submit" value="Search">
-      </form>
   <div>
-    <input class="form-control me-2" type="text" placeholder="Suchen" id="search-box-js" name="query">
-    <button class="btn hover-shadow border border-success" onclick="search_text()">Suchen</button>
+    <input class="form-control me-2 mt-4 mb-4" type="text" placeholder="Suchen" id="search-box-js" name="query" oninput="search_text()">
   </div>
 
 
