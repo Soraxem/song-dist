@@ -17,7 +17,7 @@ workbox.core.setCacheNameDetails({
 });
 
 registerRoute(
-  new RegExp('*'),
+  new RegExp('.'),
   new NetworkFirst()
 );
 
