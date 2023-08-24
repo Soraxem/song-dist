@@ -1,7 +1,7 @@
 ---
 title: Du meine Seele singe
 interpret: Paul Gerhardt
-akkorde: 
+akkorde: du-meine-seele-singe.pdf
 youtube: https://music.youtube.com/watch?v=8CatXV8Xj5Y
 spotify: https://open.spotify.com/track/3wcAJvBMXtqLpdUyzyL26v?si=42c62cdf83014c2d
 ---
