@@ -1,8 +1,13 @@
 ---
-title: Search
+title: Suchen
 ---
 
 <body>
+  <form action="{{ site.baseurl }}/search.html" method="get" class="d-flex mt-4 mb-4">
+        <input class="form-control me-2" type="text" placeholder="Search" id="search-box" name="query">
+        <input class="btn hover-shadow border border-success" type="submit" value="Search">
+      </form>
+
   <div id="search-results">
     
   </div> 
