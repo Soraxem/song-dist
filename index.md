@@ -4,7 +4,7 @@ title: Home
 ---
 # TC Chläggi
 
-Hallo, ja mir hend ezt es eigets Äpp und sogar fascht alles handprogrammiert.
+Hallo, ja mir hend ezt es eigets Äpp und sogar fascht alles handprogrammiert. Für Feedback und Verbesserigsvorschläg am beste uf mich direkt zuegah.
 
 ## Singbüechli
 
