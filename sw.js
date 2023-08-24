@@ -3,6 +3,10 @@ layout: none
 ---
 importScripts('https://storage.googleapis.com/workbox-cdn/releases/6.4.1/workbox-sw.js');
 
+workbox.setConfig({
+  debug: true,
+});
+
 const { registerRoute } = workbox.routing;
 const { CacheFirst, NetworkFirst, StaleWhileRevalidate } = workbox.strategies;
 const { CacheableResponse } = workbox.cacheableResponse;
@@ -10,10 +14,6 @@ const { CacheableResponse } = workbox.cacheableResponse;
 workbox.core.setCacheNameDetails({
   prefix: 'tc.soraxem.ch',
   suffix: '{{ site.time | date: "%Y%m%d%H%M" }}'
-});
-
-workbox.setConfig({
-  debug: true,
 });
 
 registerRoute(
