@@ -25,6 +25,10 @@ workbox.precaching.precacheAndRoute([
   {% for link in site.html_pages -%}
   { url: '{{ link.url }}', revision: '{{ site.time | date: "%Y%m%d%H%M%S"}}' },
   {% endfor %}
+
+  {% for file in site.static_files | where: "extname", ".pdf" -%}
+  { url: '{{ file.path }}', revision: '{{ file.modified_time | date: "%Y%m%d%H%M%S"}}' },
+  {% endfor %}
 ]);
 
 registerRoute(
