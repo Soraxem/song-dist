@@ -12,12 +12,12 @@
     <div class="collapse navbar-collapse" id="collapsibleNavbar">
       <ul class="navbar-nav me-auto">
         <!-- Add Navbar Item for every Site -->
-        {% for link in site.html_pages -%}
+        <!-- {% for link in site.html_pages -%}
         <li class="nav-item">
           <a class="nav-link {% if page.url == link.url -%} active{% endif -%}" href="{{ site.baseurl }}{{ link.url }}">{{ link.title -}}</a>
         </li>
         {% endfor -%}
-      </ul>
+      </ul> -->
       <!-- Search form for finding posts -->
       <form class="d-flex" action="{{ site.baseurl }}/search.html" method="get">
         <input class="form-control me-2" type="text" placeholder="Search" id="search-box" name="query">
