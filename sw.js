@@ -25,6 +25,15 @@ registerRoute(
 );
 
 
+// Aktualisierung im Hintergrund
+self.addEventListener('install', (event) => {
+  event.waitUntil(self.skipWaiting());
+});
+
+self.addEventListener('activate', (event) => {
+  event.waitUntil(self.clients.claim());
+});
+
 //workbox.precaching.precacheAndRoute([
 //  {% for link in site.html_pages -%}
 //  { url: '{{ link.url }}', revision: '{{ site.time | date: "%Y%m%d%H%M"}}' },
