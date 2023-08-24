@@ -7,12 +7,12 @@ akkorde: mein-gott-ist-groesser.pdf
 
 **Strophe**
 
-Egal wie hoch der Berg
-Egal wie stark der Feind
-Ich weiß, mein Gott hat gesiegt
-Wie hoch die Mauern sind
-Wenn Sorgen mich bedrängen
-Ich weiß, alle Ketten zerspringen
+Egal wie hoch der Berg;
+Egal wie stark der Feind;
+Ich weiß, mein Gott hat gesiegt;
+Wie hoch die Mauern sind;
+Wenn Sorgen mich bedrängen;
+Ich weiß, alle Ketten zerspringen;
 
 **Pre. Refrain**
 
