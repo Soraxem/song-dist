@@ -1,7 +1,7 @@
 ---
 title: Who you say i am
 interpret: Hillsong Worship
-akkorde: 
+akkorde: who-you-say-i-am.pdf
 youtube: https://music.youtube.com/watch?v=0bAIVYkDTWM&si=ikPFVUNj3GLlGldi
 ---
 
