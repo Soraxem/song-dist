@@ -32,9 +32,10 @@ title: Suchen
   ];
 
   function search_text() {
-    var inputElement = document.getElementById("search-bux-js");
+    var inputElement = document.getElementById("search-box-js");
     var value = inputElement.value;
     console.log(value);
+    search_list(value);
   }
 
   function search(query) {
@@ -50,15 +51,7 @@ title: Suchen
     return results;
   }
 
-// Get the URL parameters
-var urlParams = new URLSearchParams(window.location.search);
-
-// Get the value of the "attribute" parameter
-var query = urlParams.get('query');
-if (query === null) {
-  query = "";
-}
-
+function search_list(query) {
 // Use the attribute value as needed
 console.log(query);
 
@@ -69,4 +62,8 @@ console.log(query);
     html += '<li><a href="' + post.url + '">' + post.title + '</a></li>';
   }
   document.getElementById('search-results').innerHTML = html;
+}
+
+search_list("");
+
 </script>
