@@ -14,12 +14,13 @@ title: Suchen
 </body>
 
 <script>
+  {% assign songs = site.html_pages | where: "dir", "/songs/" %}
   var searchIndex = [
-    {% for page in site.html_pages | where: "dir", "/songs/" %}
+    {% for page in songs %}
       {
         "title" : "{{ page.title | escape }}",
-        "interpret" : "{{ post.interpret }}",
-        "url" : "{{ site.baseurl }}{{ post.url }}"
+        "interpret" : "{{ page.interpret }}",
+        "url" : "{{ site.baseurl }}{{ page.url }}"
       }{% unless forloop.last %},{% endunless %}
     {% endfor %}
   ];
