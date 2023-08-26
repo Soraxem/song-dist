@@ -1,6 +1,6 @@
 ---
 title: Wohin Sonst
-nterpret: Feiert Jesus!
+interpret: Feiert Jesus!
 akkorde: wohin-sonst.pdf
 youtube: https://music.youtube.com/watch?v=CbyeFDo8MhE
 ---
