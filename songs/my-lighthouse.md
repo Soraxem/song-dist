@@ -43,11 +43,11 @@ I will trust the promise You will carry me
 Safe to shore safe to shore  
 Safe to shore safe to shore
 
-**Bridge 4x**
+**Bridge 4x**  
 Fire before us, You're the brightest  
 You will lead us through the storms  
 
-**Refrain**
+**Refrain**  
 My lighthouse, my lighthouse  
 Shining in the darkness, I will follow You  
 My lighthouse, my lighthouse  
