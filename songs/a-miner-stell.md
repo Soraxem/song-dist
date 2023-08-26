@@ -16,5 +16,3 @@ Jesus dini liebi isch so unendlech gross
 Wie lieb, wie lieb muesch du mi ha?  
 I Stah da u stuhne bloss u bete di ah  
 I bete di mi Jesus ah
-
-
