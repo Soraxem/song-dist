@@ -1,10 +1,10 @@
-```
+---
 title: What a beautiful name
 interpret: Hillsong
 akkorde: 
 youtube: https://music.youtube.com/watch?v=H2T97r08MeU
 spotify: https://open.spotify.com/track/3hcyWUdjYoBiKHn6Ou6cYT
-```
+---
 
 **Strophe 1**  
 You were the Word at the beginning  
