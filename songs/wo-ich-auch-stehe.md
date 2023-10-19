@@ -1,10 +1,9 @@
-```
+---
 title: Wo ich auch stehe
 interpret: Albert Frey
 akkorde: wo-ich-auch-stehe.pdf
 youtube: https://music.youtube.com/watch?v=VMWbfS4c0P8
-spotify: 
-```
+---
 
 **Strophe 1**  
 Wo ich auch stehe, du warst schon da  
