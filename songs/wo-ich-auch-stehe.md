@@ -1,4 +1,4 @@
-```yaml
+```
 title: Wo ich auch stehe
 interpret: Albert Frey
 akkorde: wo-ich-auch-stehe.pdf
