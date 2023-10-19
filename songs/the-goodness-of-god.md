@@ -1,8 +1,9 @@
 ---
 title: The goodness of God
-interpret: Bethel Music
+interpret: Bethel Music, Jenn Johnson
 akkorde: the-goodness-of-god.pdf
-youtube: https://youtu.be/n0FBb6hnwTo
+youtube: https://music.youtube.com/watch?v=n0FBb6hnwTo
+spotify: https://open.spotify.com/intl-de/track/1O6OPFAXdTdjHtT7Z2Hlt8
 ---
 
 **Strophe 1**  
