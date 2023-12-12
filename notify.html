@@ -7,7 +7,6 @@
         <input type="text" placeholder="Was braucht man?" id="sachen">
         <input type="submit" onclick="notificationout()">
         <script>
-        let titel = document.getElementById(titel);
         console.log(titel);
         let datum = document.getElementById(datum);
         console.log(datum);
@@ -21,7 +20,7 @@
         console.log(textbody);
         function notificationout() {
         console.log("wird gesendet")
-            new Notification(titel, {
+            new Notification("Nächster TC steht an", {
                 body: textbody,
                 icon: "icon.png"
             })
