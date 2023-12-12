@@ -4,12 +4,12 @@ title: Schicke Benachrichtigung
 ---
 
 ## Schicke eine Benachrichtigung
-<input type="text" placeholder="It's beginning to look a lot like Christmas 🍪🧦" id="titel">Titel</input>
-<input type="date" placeholder="08.12.2023" id="datum">Datum</input>
-<input type="time" placeholder="19:00" id="zeit">Uhrzeit</input>
-<input type="text" placeholder="Mesmerhaus Löhningen, Kloster 14" id="ort">Ort</input>
-<input type="text" placeholder="Deine Lieblingskuschensocke" id="sachen">Was man braucht</input>
-<input type="submit" onclick="send()">Schicken</input>
+<input type="text" placeholder="Titel des TC" id="titel"></input>
+<input type="date" placeholder="Datum" id="datum"></input>
+<input type="time" placeholder="Uhrzeit" id="zeit"></input>
+<input type="text" placeholder="Ort" id="ort"></input>
+<input type="text" placeholder="Was braucht man?" id="sachen"></input>
+<input type="submit" onclick="send()">
 
 <script>
     let titel = document.getElementById(titel);
