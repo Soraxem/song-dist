@@ -26,7 +26,7 @@ layout: home
             const Notify = new Notification("Nächster TC steht an", {
                 body: texttext,
                 icon: "icon.png"
-            })
+            });
         console.log("Wurde gesendet");
         }
     
