@@ -1,20 +1,19 @@
 <html>
     <body>
-        <input type="text" placeholder="Titel des TC" id="titel">
-        <input type="date" placeholder="Datum" id="datum">
-        <input type="time" placeholder="Uhrzeit" id="zeit">
-        <input type="text" placeholder="Ort" id="ort">
-        <input type="text" placeholder="Was braucht man?" id="sachen">
+        <input type="date" placeholder="Datum" id="datumhtml">
+        <input type="time" placeholder="Uhrzeit" id="zeithtml">
+        <input type="text" placeholder="Ort" id="orthtml">
+        <input type="text" placeholder="Was braucht man?" id="sachenhtml">
         <input type="submit" onclick="notificationout()">
         <script>
         console.log(titel);
-        let datum = document.getElementById(datum);
+        let datum = document.getElementById(datumhtml);
         console.log(datum);
-        let uhrzeit = document.getElementById(zeit);
+        let uhrzeit = document.getElementById(zeithtml);
         console.log(zeit);
-        let ort = document.getElementById(ort);
+        let ort = document.getElementById(orthtml);
         console.log(ort);
-        let sachen = document.getElementById(sachen);
+        let sachen = document.getElementById(sachenhtml);
         console.log(sachen);
         let textbody = "Hey der nächste TC findet am" + datum + "um" + uhrzeit + "statt, der Ort ist" + ort + "und ihr müsst" + sachen + "mitbringen, wir freuen uns."
         console.log(textbody);
