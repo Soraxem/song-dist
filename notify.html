@@ -5,17 +5,22 @@
         <input type="time" placeholder="Uhrzeit" id="zeit">
         <input type="text" placeholder="Ort" id="ort">
         <input type="text" placeholder="Was braucht man?" id="sachen">
-        <input type="submit" onclick="send()">
+        <input type="submit" onclick="notificationout()">
         <script>
         let titel = document.getElementById(titel);
+        console.log(titel);
         let datum = document.getElementById(datum);
+        console.log(datum);
         let uhrzeit = document.getElementById(zeit);
+        console.log(zeit);
         let ort = document.getElementById(ort);
+        console.log(ort);
         let sachen = document.getElementById(sachen);
+        console.log(sachen);
         let textbody = "Hey der nächste TC findet am" + datum + "um" + uhrzeit + "statt, der Ort ist" + ort + "und ihr müsst" + sachen + "mitbringen, wir freuen uns."
-
-        function send()
-        {
+        console.log(textbody);
+        function notificationout() {
+        console.log("wird gesendet")
             new Notification(titel, {
                 body: textbody,
                 icon: "icon.png"
