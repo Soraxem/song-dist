@@ -11,15 +11,15 @@ layout: home
         <input type="submit" onclick="notificationout()">
         <script>
         let datum = document.getElementById(datumhtml);
-        console.log(datum);
+        console.log("datum: " + datum);
         let uhrzeit = document.getElementById(zeithtml);
-        console.log(zeit);
+        console.log("zeit: " + zeit);
         let ort = document.getElementById(orthtml);
-        console.log(ort);
+        console.log("ort: " + ort);
         let sachen = document.getElementById(sachenhtml);
-        console.log(sachen);
+        console.log("sachen: " + sachen);
         let texttext = "Hey der nächste TC findet am" + datum + "um" + uhrzeit + "statt, der Ort ist" + ort + "und ihr müsst" + sachen + "mitbringen, wir freuen uns."
-        console.log(texttext);
+        console.log("definierter Text: " + texttext);
         function notificationout() {
         console.log("wird gesendet")
             new Notification("Nächster TC steht an", {
