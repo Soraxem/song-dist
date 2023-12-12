@@ -10,15 +10,15 @@ layout: home
         <input type="text" placeholder="Was braucht man" id="sachenhtml">
         <input type="submit" onclick="notificationout()">
         <script>
-        let datum = document.getElementById(datumhtml);
+        let datum = document.getElementById(datumhtml).value;
         console.log("datum: " + datum);
-        let uhrzeit = document.getElementById(zeithtml);
+        let uhrzeit = document.getElementById(zeithtml).value;
         console.log("zeit: " + uhrzeit);
-        let ort = document.getElementById(orthtml);
+        let ort = document.getElementById(orthtml).value;
         console.log("ort: " + ort);
-        let sachen = document.getElementById(sachenhtml);
+        let sachen = document.getElementById(sachenhtml).value;
         console.log("sachen: " + sachen);
-        let texttext = "Hey der nächste TC findet am" + datum + "um" + uhrzeit + "statt, der Ort ist" + ort + "und ihr müsst" + sachen + "mitbringen, wir freuen uns."
+        let texttext = "Hey der nächste TC findet am " + datum + " um " + uhrzeit + " statt, der Ort ist " + ort + " und ihr müsst " + sachen + " mitbringen, wir freuen uns. "
         console.log("definierter Text: " + texttext);
         function notificationout() {
         console.log("wird gesendet")
