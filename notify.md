@@ -21,8 +21,8 @@ title: Schicke Benachrichtigung
 
     function send()
     {
-        new Notification(document.getElementById("title").value, {
-            body: textbody
+        new Notification(titel, {
+            body: textbody,
             icon: "icon.png"
         })
     }
