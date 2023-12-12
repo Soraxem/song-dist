@@ -48,3 +48,8 @@ Zum d App installiere, chasch Du do d Ahleitig finde. Klick uf de chnopf, mit de
     </svg>
     Firefox
 </a>
+<script>
+    function asknotify()
+    {
+        Notification.requestPermission(function() {});
+    }
