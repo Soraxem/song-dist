@@ -12,13 +12,13 @@ Hallo, ja mir hend ezt es eigets Äpp und sogar fascht alles handprogrammiert. F
 Es TC App dient als Singbüechli für de TC Klettgau. In de suechliste chan es lied igeh werde, und denn findets de Text. Wenn Du im Internet bisch, chasch sogar de spotify, oder Youtube link ahklicke. Genauso chasch denn uf d Akkörd vo de Lieder zuegriife. Wenn Du uh gern es Lied wünsche möchtisch, chasch Du das mit dem Formular mache.
 
 <a href="https://hafen.swisscloudhosting.ch/apps/forms/s/8JPtHedtboKwjwMcMr7F2xqP" class="btn btn-secondary" target="_blank">
-    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#FFFFFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 17H2a3 3 0 0 0 3-3V9a7 7 0 0 1 14 0v5a3 3 0 0 0 3 3zm-8.27 4a2 2 0 0 1-3.46 0"></path></svg>
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#FFFFFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 17H2a3 3 0 0 0 3-3V9a7 7 0 0 1 14 0v5a3 3 0 0 0 3 3zm-8.27 4a2 2 0 0 1-3.46 0"></path>
     </svg>
     Lied wünschen
 </a>
 
 <p onclick="asknotify" class="btn btn-secondary" target="_blank">
-    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 17H2a3 3 0 0 0 3-3V9a7 7 0 0 1 14 0v5a3 3 0 0 0 3 3zm-8.27 4a2 2 0 0 1-3.46 0"></path></svg>
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 17H2a3 3 0 0 0 3-3V9a7 7 0 0 1 14 0v5a3 3 0 0 0 3 3zm-8.27 4a2 2 0 0 1-3.46 0"></path>
     </svg>
     Benachrichtigunge aktivieren
 </p>
