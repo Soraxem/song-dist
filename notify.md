@@ -23,10 +23,10 @@ layout: home
         console.log("definierter Text: " + texttext);
         function notificationout() {
         console.log("wird gesendet")
-            const Notify = new Notification("Nächster TC steht an", {
-                body: texttext,
-                icon: "icon.png"
-            });
+            const greeting = new Notification('Hi, How are you?',{
+                body: (texttext),
+                icon: '.icon.png'
+});
         console.log("Wurde gesendet");
         }
     
