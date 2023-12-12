@@ -1,12 +1,15 @@
+---
+title: Benachrichtigung
+layout: home
+---
 <html>
     <body>
         <input type="date" placeholder="Datum" id="datumhtml">
         <input type="time" placeholder="Uhrzeit" id="zeithtml">
         <input type="text" placeholder="Ort" id="orthtml">
-        <input type="text" placeholder="Was braucht man?" id="sachenhtml">
+        <input type="text" placeholder="Was braucht man" id="sachenhtml">
         <input type="submit" onclick="notificationout()">
         <script>
-        console.log(titel);
         let datum = document.getElementById(datumhtml);
         console.log(datum);
         let uhrzeit = document.getElementById(zeithtml);
@@ -29,4 +32,3 @@
         </script>
     </body>
 </html>
-
