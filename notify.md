@@ -13,7 +13,7 @@ layout: home
         let datum = document.getElementById(datumhtml);
         console.log("datum: " + datum);
         let uhrzeit = document.getElementById(zeithtml);
-        console.log("zeit: " + zeit);
+        console.log("zeit: " + uhrzeit);
         let ort = document.getElementById(orthtml);
         console.log("ort: " + ort);
         let sachen = document.getElementById(sachenhtml);
