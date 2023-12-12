@@ -26,7 +26,7 @@ layout: home
             const greeting = new Notification('Hi, How are you?',{
                 body: (texttext),
                 icon: '.icon.png'
-});
+            });
         console.log("Wurde gesendet");
         }
     
