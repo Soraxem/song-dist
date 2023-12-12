@@ -15,12 +15,12 @@
         console.log(ort);
         let sachen = document.getElementById(sachenhtml);
         console.log(sachen);
-        let textbody = "Hey der nächste TC findet am" + datum + "um" + uhrzeit + "statt, der Ort ist" + ort + "und ihr müsst" + sachen + "mitbringen, wir freuen uns."
-        console.log(textbody);
+        let texttext = "Hey der nächste TC findet am" + datum + "um" + uhrzeit + "statt, der Ort ist" + ort + "und ihr müsst" + sachen + "mitbringen, wir freuen uns."
+        console.log(texttext);
         function notificationout() {
         console.log("wird gesendet")
             new Notification("Nächster TC steht an", {
-                body: textbody,
+                body: texttext,
                 icon: "icon.png"
             })
         console.log("Wurde gesendet");
