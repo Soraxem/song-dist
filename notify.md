@@ -4,8 +4,8 @@ layout: home
 ---
 <html>
     <body>
-        <input type="date" placeholder="Datum" id="datumhtml">
-        <input type="time" placeholder="Uhrzeit" id="zeithtml">
+        <input type="text" placeholder="Datum" id="datumhtml">
+        <input type="text" placeholder="Uhrzeit" id="zeithtml">
         <input type="text" placeholder="Ort" id="orthtml">
         <input type="text" placeholder="Was braucht man" id="sachenhtml">
         <input type="submit" onclick="notificationout()">
