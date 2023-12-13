@@ -3,22 +3,21 @@ title: Benachrichtigung
 layout: home
 ---
 
-## Schicke eine Benachrichtigung
+## Reminder
 Hey, hier chönd ihr d Benachrichtigung für de nöchsti TC sendä, damit d Lüüt informiert sich durch eh Benachrichtigung!
 Zum eh Benachrichtigung chönä sendä, chönd ihr die underi sache so ihgeh wie im Bispiel une drah und denn eifach uuf sendä uns es giit eh Benachrichtigung uuf ali grät die es Aktiviert hend!
 Biispiel
-Titel: Wir bached Cookies
-Datum: 16.12.2023
-Zeit: 19:00
-Ort: Mesmerhuus Löhninge, Kloster 4
+<br>Datum:</br> <p>16.12.2023</p>
+<br>Zeit:</br> <p>19:00</p>
+<br>Ort:</br> <p>Mesmerhuus Löhninge, Kloster 4</p>
 <html>
     <body>
-        <input type="text" placeholder="Titel" id="titelhtml">
         <input type="date" placeholder="Datum" id="datumhtml">
         <input type="time" placeholder="Uhrzeit" id="zeithtml">
         <input type="text" placeholder="Ort" id="orthtml">
         <input type="text" placeholder="Was braucht man" id="sachenhtml">
         <input type="submit" onclick="notificationout()">
+
         <script>
         const express = require('express');
         const app = express();
@@ -33,13 +32,11 @@ Ort: Mesmerhuus Löhninge, Kloster 4
         
 
         function notificationout() {
-            console.log("Wird ausgeführt")
-            let titel = document.getElementById("titelhtml").value;
             let datum = document.getElementById("datumhtml").value;
             let uhrzeit = document.getElementById("zeithtml").value;
             let ort = document.getElementById("orthtml").value;
             let sachen = document.getElementById("sachenhtml").value;
-            let texttext = "Hey de nöchschti TC stoht wieder ah und es wird cool, de TC findet am " + datum  " um " + uhrzeit + " statt, de Ort isch " + ort + ", ich hoffe ihr chömed, ah und bevor mir es vergässäd, ihr bruuchäd " + sachen
+            let texttext = "Hey nomol en Reminder das am " + datum + " um " + uhrzeit + " de nöchschti TC statt findät, de Ort isch " + ort + " und nid vergässä das ihr " + sachen + " mitnäh münd" 
 
             console.log("datum: " + datum);
             console.log("zeit: " + uhrzeit);
@@ -47,7 +44,7 @@ Ort: Mesmerhuus Löhninge, Kloster 4
             console.log("sachen: " + sachen);
             console.log("wird gesendet")
             console.log("Definierter Text: " + texttext)
-            const Notify = new Notification(titel,{
+            const Notify = new Notification(nöchschti TC stoht ah!,{
                 body: (texttext),
                 icon: "./icon.png"
             });
