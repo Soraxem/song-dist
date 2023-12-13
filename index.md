@@ -19,7 +19,7 @@ Es TC App dient als Singbüechli für de TC Klettgau. In de suechliste chan es l
 </a>
 
 ## Benachrichtigungen
-Neu hend mir au eh benachrichtigung wenn de nöchschti TC isch, wenn du das möchtisch klick une druf und klick uf akzeptiere. Achtung funktioniert numä be Chrome, unter Firefox und Safari muesch du es selber aktivierä
+Neu hend mir au eh benachrichtigung wenn de nöchschti TC isch, wenn du das möchtisch klick une druf und klick uf akzeptiere. Achtung funktioniert numä be Chrome, unter Firefox und Safari muesch du es selber aktivierä.
 
 <p onclick="asknotify()" class="btn btn-secondary" target="_blank">
     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 17H2a3 3 0 0 0 3-3V9a7 7 0 0 1 14 0v5a3 3 0 0 0 3 3zm-8.27 4a2 2 0 0 1-3.46 0"></path>
@@ -27,11 +27,15 @@ Neu hend mir au eh benachrichtigung wenn de nöchschti TC isch, wenn du das möc
     Benachrichtigungen aktivieren
 </p>
 
-<a href="./install.md" class="btn btn-secondary" target="_blank">
+## Installieren
+Du chasch au die Websiite au uuf dis Handy installierä und es wie dieni anderi Apps verwändä, wenn du das möchtisch chasch du une uuf de Button klickä und dir zu dim Browser es Tutorial aluegä.
+
+
+<a href="./install" class="btn btn-secondary" target="_blank">
     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
         <path d="M3 15v4c0 1.1.9 2 2 2h14a2 2 0 0 0 2-2v-4M17 9l-5 5-5-5M12 12.8V2.5"/></path>
     </svg>
-    Installiere die TC App
+    Installieren der TC App
 </a>
 
 <script>
