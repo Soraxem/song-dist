@@ -44,7 +44,7 @@ Biispiel
             console.log("sachen: " + sachen);
             console.log("wird gesendet")
             console.log("Definierter Text: " + texttext)
-            const Notify = new Notification(nöchschti TC stoht ah!,{
+            const Notify = new Notification("nöchschti TC stoht ah!",{
                 body: (texttext),
                 icon: "./icon.png"
             });
