@@ -38,7 +38,7 @@ layout: home
             console.log("Definierter Text: " + texttext)
             const Notify = new Notification('Der nächste TC',{
                 body: (texttext),
-                icon: 'icon.png'
+                icon: "./icon.png"
             });
             console.log("Wurde gesendet");
         }
