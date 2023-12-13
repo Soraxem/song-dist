@@ -28,7 +28,7 @@ Neu hend mir au eh benachrichtigung wenn de nöchschti TC isch, wenn du das möc
 </p>
 
 ## Installieren
-Du chasch au die Websiite au uuf dis Handy installierä und es wie dieni anderi Apps verwändä, wenn du das möchtisch chasch du une uuf de Button klickä und dir zu dim Browser es Tutorial aluegä.
+Zum d App installiere, chasch Du do d Ahleitig finde. Klick uf de chnopf une, und uuf de anderi siite, mit dem Browser wo du jezt grad bruchsch. Wenns dine nid git, nimmsch am beste eifach mal Chrome.
 
 
 <a href="./install" class="btn btn-secondary" target="_blank">
