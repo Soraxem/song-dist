@@ -41,5 +41,5 @@ Zum d App installiere, chasch Du do d Ahleitig finde. Klick uf de chnopf une, un
 <script>
     function asknotify()
     {
-        Notification.requestPermission(function() {});
+        Notification.requestPermission();
     }
