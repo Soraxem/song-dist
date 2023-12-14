@@ -39,7 +39,30 @@ Zum d App installiere, chasch Du do d Ahleitig finde. Klick uf de chnopf une, un
 </a>
 
 <script>
-    function asknotify()
-    {
-        Notification.requestPermission();
+    function asknotify() {
+    // Function to actually ask the permissions
+    function handlePermission(permission) {
+      // Whatever the user answers, we make sure Chrome stores the information
+      if (!Reflect.has(Notification, 'permission')) {
+        Notification.permission = permission;
+      }
+
+      // Set the button to shown or hidden, depending on what the user answers
+      if (Notification.permission === 'denied' || Notification.permission === 'default') {
+        notificationBtn.style.display = 'block';
+      } else {
+        notificationBtn.style.display = 'none';
+      }
+    };
+
+    // Check if the browser supports notifications
+    if (!Reflect.has(window, 'Notification')) {
+      console.log('This browser does not support notifications.');
+    } else {
+      if (checkNotificationPromise()) {
+        Notification.requestPermission().then(handlePermission);
+      } else {
+        Notification.requestPermission(handlePermission);
+      }
     }
+  };
