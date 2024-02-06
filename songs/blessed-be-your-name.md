@@ -3,6 +3,7 @@ title: Blessed be your name
 interpret: Beth & Matt Redmann
 akkorde: blessed-be-your-name.pdf
 youtube: https://music.youtube.com/watch?v=-xqWpvQDng0&si=5JMBnZVKl6KeSLGl
+spotify: https://open.spotify.com/intl-de/track/14HrSWGYPCDwqAcVFUYKsq
 ---
 
 **Strophe 1**  

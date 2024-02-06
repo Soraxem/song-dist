@@ -3,6 +3,7 @@ title: I speak Jesus
 interpret: Charity Gayle
 akkorde: i-speak-jesus.pdf
 youtube: https://youtu.be/PcmqSfr1ENY
+spotify: https://open.spotify.com/intl-de/track/467ywsenaNywwCuYhmBb5N?si=0c01758efb7a437d
 ---
 
 **Strophe 1**  

@@ -1,8 +1,9 @@
 ---
 title: Mein Gott ist Grösser
 interpret: Feiert Jesus!
-youtube: https://music.youtube.com/watch?v=WcSywsuz3Fs&si=gATcSKyL8zukHeM2
 akkorde: mein-gott-ist-groesser.pdf
+youtube: https://music.youtube.com/watch?v=WcSywsuz3Fs&si=gATcSKyL8zukHeM2
+spotify: https://open.spotify.com/intl-de/track/2m7TCCINJDk3IMHQji1Axl?si=7a402bdcf3c04689
 ---
 
 **Strophe**  

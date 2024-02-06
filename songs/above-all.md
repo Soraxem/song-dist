@@ -3,7 +3,9 @@ title: Above All
 interpret: Lenny LeBlanc, Paul Baloche
 akkorde: above-all.pdf
 youtube: https://music.youtube.com/watch?v=5VkTUmoT8bw&si=93qp88JjmetpgRNe
+spotify: https://open.spotify.com/intl-de/track/2B0kbmJdY4XLibzEcAThK1?si=26b5921de9404d76
 ---
+
 
 **Strophe 1**  
 Above all powers, above all kings  

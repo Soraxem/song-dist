@@ -3,6 +3,7 @@ title: Huus vom Loob
 interpret: Columbus
 akkorde: huus-vom-loob.pdf
 youtube: https://music.youtube.com/watch?v=t9LuqzBxsYk&si=Hi1SXSK4rmxF2JmA
+spotify: https://open.spotify.com/intl-de/track/3twcENNmWF0U89vVOv3DOm?si=4ec968069d9244fe
 ---
 
 **Strophe 1**  
