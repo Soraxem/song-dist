@@ -3,6 +3,7 @@ title: 1000ig gueti Gründ
 interpret: Den Zeltner
 akkorde: 1000ig-gueti-gruend.pdf
 youtube: https://music.youtube.com/watch?v=0lB342Q3BeM&si=v5czwU28eiq5DzCa
+spotify: https://open.spotify.com/intl-de/track/036c2un8cAQ41AotVkxZ11?si=6b1220f620cb43c4
 ---
 
 **Refrain**  

@@ -3,6 +3,7 @@ title: What a friend we have in Jesus
 interpret: Alan Jackson
 akkorde: what-a-friend-we-have-in-jesus.pdf
 youtube: https://music.youtube.com/watch?v=0UdHlrEdjM0
+spotify: https://open.spotify.com/intl-de/track/6pMnEX2iBcqQtUyIl1L6Oo?si=04eae8a6c87a4ee4
 ---
 
 **Strophe 1**  

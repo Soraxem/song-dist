@@ -3,6 +3,7 @@ title: Wohin Sonst
 interpret: Feiert Jesus!
 akkorde: wohin-sonst.pdf
 youtube: https://music.youtube.com/watch?v=CbyeFDo8MhE
+spotify: https://open.spotify.com/intl-de/track/3W57ZEHhoLFLjyLEUQOFGj?si=0b591d85e7884e82
 ---
 
 **Strophe**  

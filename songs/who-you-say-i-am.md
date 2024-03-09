@@ -2,7 +2,8 @@
 title: Who you say i am
 interpret: Hillsong Worship
 akkorde: who-you-say-i-am.pdf
-youtube: https://music.youtube.com/watch?v=0bAIVYkDTWM&si=ikPFVUNj3GLlGldi
+youtube: https://music.youtube.com/watch?v=0bAIVYkDTWM
+spotify: https://open.spotify.com/intl-de/track/1QoQC9g6R0K1SrPQifxaWB?si=b30f78fe2c6e4fa7
 ---
 
 **Strophe 1**  

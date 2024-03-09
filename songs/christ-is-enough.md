@@ -3,6 +3,7 @@ title: Christ is Enough
 interpret: Reuben Morgan & Jonas Myrin
 akkorde: christ-is-enough.pdf
 youtube: https://music.youtube.com/watch?v=eNz7hieSO_A&si=RumvHo1T97lfuB9-
+spotify: https://open.spotify.com/intl-de/track/6ylhMPeBV9kF5dYvBAO2tQ?si=6249a055056344bc
 ---
 
 **Strophe 1**  
