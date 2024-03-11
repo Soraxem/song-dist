@@ -1,7 +1,7 @@
 ---
 title: Der Herr segne dich
 interpret: Markus Fackler und Veronika Lohmer
-akkorde: laudato-si-o-mio-signore.pdf
+akkorde: der-herr-segne-dich.pdf
 youtube: https://music.youtube.com/watch?v=Avl1wKoat4E
 spotify: https://open.spotify.com/intl-de/track/3hYokYd6VpXpmnuw5hvZlZ?si=7e9e7c5b3aa7418c
 ---
