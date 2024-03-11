@@ -1,7 +1,7 @@
 ---
 title: Von guten Mächten
-interpret: Beispieleinterpret
-akkorde: 
+interpret: Worship Symphony
+akkorde: von-guten-maechten.pdf
 youtube: https://music.youtube.com/watch?v=JU5MsIXbt1Q
 spotify: https://open.spotify.com/intl-de/track/3I1IbVJy2PTVMuVfCUYEy4?si=b75ea3e589494c37
 ---

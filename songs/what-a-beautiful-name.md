@@ -1,7 +1,7 @@
 ---
 title: What a beautiful name
 interpret: Hillsong
-akkorde: 
+akkorde: what-a-beautiful-name.pdf
 youtube: https://music.youtube.com/watch?v=H2T97r08MeU
 spotify: https://open.spotify.com/track/3hcyWUdjYoBiKHn6Ou6cYT
 ---

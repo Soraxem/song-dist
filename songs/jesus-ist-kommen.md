@@ -1,6 +1,6 @@
 ---
 title: Jesus ist Kommen
-akkorde: jesus-ist-kommen-noten.pdf
+akkorde: jesus-ist-kommen.pdf
 youtube: https://music.youtube.com/watch?v=uCOBVG1_ndk
 spotify: https://open.spotify.com/intl-de/track/4fTC7jH7ZsRiCROGQxn5Ic?si=5a289cb99c8b41c0
 ---
