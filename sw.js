@@ -17,7 +17,7 @@ workbox.core.setCacheNameDetails({
 });
 
 registerRoute(
-  new RegExp('.'),
+  ({url}) => url.origin === self.location.origin,
   new NetworkFirst()
 );
 
